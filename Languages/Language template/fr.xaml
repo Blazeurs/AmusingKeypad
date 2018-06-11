@@ -6,26 +6,26 @@
     <sys:String x:Key="MainTitle">AmusingKeypadPro</sys:String>
     <sys:String x:Key="KeyCfgs" xml:space="preserve"> KeyCfgs </sys:String>
     <sys:String x:Key="KeyLeds" xml:space="preserve"> KeyLeds </sys:String>
-    <sys:String x:Key="BackLeds" xml:space="preserve"> BackLeds </sys:String>
+    <sys:String x:Key="BackLeds" xml:space="preserve"> Lumierre arrière </sys:String>
 
     <!--Application upgrade tips-->
-    <sys:String x:Key="NewReleaseApp">The new version of the application is published, do you want updated?</sys:String>
-    <sys:String x:Key="OldAppVersion">Old App Version:</sys:String>
-    <sys:String x:Key="NewAppVersion">New App Version:</sys:String>
-    <sys:String x:Key="AppUpdateSuccess">App Update Success!</sys:String>
-    <sys:String x:Key="AppUpdateFailed">App Update Failed!</sys:String>
-    <sys:String x:Key="GetAppVerListFail">Failed to get application update list:</sys:String>
+    <sys:String x:Key="NewReleaseApp">Une nouvelle version a été plubié, voulez-vous la mettre a jour ?</sys:String>
+    <sys:String x:Key="OldAppVersion">Ancienne Version:</sys:String>
+    <sys:String x:Key="NewAppVersion">Nouvelle Version:</sys:String>
+    <sys:String x:Key="AppUpdateSuccess">La mise à jour à correctement été installé!</sys:String>
+    <sys:String x:Key="AppUpdateFailed">La mise à jour n'a pas reussi à être installé!</sys:String>
+    <sys:String x:Key="GetAppVerListFail">Impossible d'obtenir la liste de mise à jour de l'application:</sys:String>
 
     <!--Device connection status-->
-    <sys:String x:Key="NoLink" xml:space="preserve">No Device Link !</sys:String>
-    <sys:String x:Key="Linked" xml:space="preserve">Device Linking...</sys:String>
-    <sys:String x:Key="ReadyToIAP">Ready to IAP...</sys:String>
-    <sys:String x:Key="ReBoot">Reboot device...</sys:String>
+    <sys:String x:Key="NoLink" xml:space="preserve">Aucun périphérique connecté!</sys:String>
+    <sys:String x:Key="Linked" xml:space="preserve">Périphérique connecté...</sys:String>
+    <sys:String x:Key="ReadyToIAP">Pret pour l'IAP...</sys:String> ****************<--- Idk what is "IAP"**************
+    <sys:String x:Key="ReBoot">Redémarage du périphérique...</sys:String>
 
     <!--Device function name-->
     <sys:String x:Key="KeyDebounce">KeyDebounce:</sys:String>
-    <sys:String x:Key="AlwaysOFF">AlwaysOFF</sys:String>
-    <sys:String x:Key="AlwaysON">AlwaysON</sys:String>
+    <sys:String x:Key="AlwaysOFF">ToujoursOFF</sys:String>
+    <sys:String x:Key="AlwaysON">TtoujoursON</sys:String>
     <sys:String x:Key="PressON">PressON</sys:String>
     <sys:String x:Key="PressOFF">PressOFF</sys:String>
     <sys:String x:Key="ColorTable">ColorTable</sys:String>
@@ -110,7 +110,7 @@
     <sys:String x:Key="ClrPoint" xml:space="preserve">Clear&#xA;Point</sys:String>
     <sys:String x:Key="PopupText" xml:space="preserve">
 Key set information:
-  Left-click to select, Right-click to accept !
+  Click gauche pour séléctioner, click droit pour accepter !
 Point set information:
   Left-Down on "SelectPoint" then move Mouse to select,
   Left-Up to selected Point !
